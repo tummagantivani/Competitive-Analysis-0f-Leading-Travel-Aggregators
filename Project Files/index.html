@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Booking Rate</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Krub:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Bikin
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/bikin-free-simple-landing-page-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Travelling in India</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#dashboard">Dashboard</a></li>
+          <li><a class="nav-link scrollto " href="#story">Story</a></li>
+          <li><a class="nav-link scrollto" href="#team">Report</a></li>
+          <li><a class="nav-link scrollto" href="#contact">pricing</a></li>
+
+               <i class="bi bi-list mobile-nav-tggle"></i>
+        </nav><! -- .navbar -->
+
+      </div>
+      </header>
+      <!-- End Header -->
+
+          <!-- ======= hero section ======= -->
+          <section id="hero" class="d-flex align-items-center">
+
+            <div class="container d-flex flex-column align-items-center justify-content-center" data-aos="fade-up">
+            <h1>Analysis of Booking Rate in India</h1>
+            <h2>Travelling is key for development of a Nation</h2>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+           <img src="data:image/jpeg;base64,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" 
+               </div>
+            
+        </section><!-- End Hero -->
+             
+      <main id="main">
+
+  <!-- ======= About Section ======= -->
+
+  <!-- End About Section -->
+
+<!-- ======= Clinets Section ======= -->
+
+
+    <!-- ======= Features Section ======= -->
+    <section id="dashboard" class="features" data-aos="fade-up">
+      <div class="container">
+
+        <div class="section-title">
+
+          <h3>Dashboard</h3>
+         </div> 
+
+           <iframe src="https://us3.ca.analytics.ibm.com/bi/?perspective=dashboard&amp;pathRef=.my_folders%2FBooking%2Bdashboard&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard&amp;subView=model000001897057ba94_00000002"
+            width="1350" height="900" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+
+
+      </div>
+    </section>
+    <!-- End Features Section -->
+
+  
+      <!-- ======= Services Section ======= -->
+    <section id="story" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Story</h2>
+
+        </div>
+        
+        <iframe src="https://us3.ca.analytics.ibm.com/bi/?perspective=story&amp;pathRef=.my_folders%2FBooking%2Bstory&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;sceneId=-1&amp;sceneTime=0"
+          width="1350" height="900" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+  
+          
+        </div>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="report" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Report</h2>
+          
+        </div>
+
+        <iframe src="https://us3.ca.analytics.ibm.com/bi/?pathRef=.my_folders%2FBooking%2Breport&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=edit"
+         width="1350" height="900" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe
+    
+     
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Pricing</h2>
+              </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <h3>Free</h3>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box featured">
+              <h3>Business</h3>
+              <h4><sup>$</sup>19<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <h3>Developer</h3>
+              <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+              </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-map"></i>
+                  <h3>Our Address</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@example.com<br>contact@example.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-md-0">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Bikin</h3>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Bikin</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bikin-free-simple-landing-page-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
